@@ -835,6 +835,7 @@ namespace Pchp.Library
                         }
                         Consume(Tokens.Quote);
 
+                        return PhpValue.Create(new PhpString(bytes));
                         //
                         try
                         {
